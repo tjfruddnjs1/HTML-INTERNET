@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        a:link{
+            color:black;
+        }
+        a:visited{ /*보안상 일부의 속성만 사용가능*/
+            color:red;
+        }
+        a:active{
+            color:green;
+        }
+        a:hover{
+            color:yellow;
+        }
+        a:focus{ /*tab키를 누르고 enter시 클릭 지원, 가장 뒤에 작성*/
+            color:white;
+        }
+        input:focus{ /*focus 기능 활용*/
+            background-color: black;
+            color:white;
+        }
+        /*css는 두개의 동일한 일을 나타내면 뒤에 있는 선택자를 선택*/
+    </style>
+</head>
+    <body>
+        <a href="https://github.com/">방문함</a>
+        <a href="https://www.youtube.com/">방문안함</a>
+        <input type="text">
+    </body>
+</html>

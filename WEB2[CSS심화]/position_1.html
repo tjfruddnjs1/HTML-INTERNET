@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        html{border: solid 1px gray;}
+        div{
+            border : solid 5px tomato;
+            margin:10px;
+            }
+        #me{
+            position: relative;
+            left:100px;
+            top:100px;
+            /* offset : 왼쪽으로부터 100px떨어진, 즉 오른쪽으로 */
+        }
+    </style>
+</head>
+    <body>
+        <div id="other">other</div>
+        <div id="parent">
+            parent
+            <div id="me">me</div>
+        </div>
+    </body>
+</html>

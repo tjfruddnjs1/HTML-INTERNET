@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
     <head>W
         <title>WEB1 - JavaScript</title>
@@ -7,12 +7,20 @@
 
     <body>
         <h1><a href="index.html">WEB</a></h1>
+        <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        "/>
+        <input type="button" value="day" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        "/>
         <ol>
             <li><a href="1.html">HTML</a></li>
             <li><a href="2.html">CSS</a></li>
             <li><a href="3.html">JavaScript</a></li>
         </ol>
-        <H2>JavaScript란 무엇인가?</H2>
+        <H2 style="color:powderblue">JavaScript란 무엇인가?</H2>
         <p>
             JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. While JavaScript is influenced by Java, the syntax is more similar to C and is based on ECMAScript, a scripting language developed by Sun Microsystems.
         </p><p>
